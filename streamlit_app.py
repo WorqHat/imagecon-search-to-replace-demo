@@ -28,7 +28,6 @@ def callapi(file,search,mod, api_key):
         st.write("The request failed")
         return None, round(duration, 2)
 
-
 st.title("Search and Replace Objects in Image")
 st.write("Leverage the power of AI to dynamically search and replace objects within images. Ideal for e-commerce, marketing, and personalization, this API transforms your images with precision and creativity in just one step.")
 
